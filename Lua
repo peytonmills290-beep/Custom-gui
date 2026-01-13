@@ -3726,5 +3726,3 @@ function library:window(properties)
         end
     --
 -- 
-
-return library
