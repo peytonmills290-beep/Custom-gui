@@ -1,18 +1,5 @@
 -- The Bronx 3 ONLY
 if game.PlaceId ~= 16472538603 then return end
-
--- Load Orion
-local OrionLib = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/jensonhirst/Orion/main/source"
-))()
-
-local Window = OrionLib:MakeWindow({
-    Name = "Villainhub | The Bronx 3",
-    HidePremium = false,
-    SaveConfig = true,
-    ConfigFolder = "VillainhubBronx3"
-})
-
 local player = game.Players.LocalPlayer
 
 -- =========================
