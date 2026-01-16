@@ -162,8 +162,3 @@ MiscTab:AddDropdown({
         end
     end
 })
-
--- =========================
--- INIT ORION
--- =========================
-OrionLib:Init()
